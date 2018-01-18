@@ -243,7 +243,7 @@ var blockIter = function(web3, firstBlock, lastBlock, config) {
 var config = {};
 
 try {
-    var configContents = fs.readFileSync('config.json');
+    var configContents = fs.readFileSync('tools/config.json');
     config = JSON.parse(configContents);
 }
 catch (error) {
